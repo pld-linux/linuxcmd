@@ -1,5 +1,5 @@
-Summary:	linuxcmd
-Summary(pl):	linuxcmd
+Summary:	linuxcmd - clone of Total Commander for linux
+Summary(pl):	linuxcmd - klon Total Commandera dla linuxa
 Name:		linuxcmd
 Version:	0.5.2
 Release:	0.1
@@ -7,8 +7,8 @@ License:	GPL
 Group:		Applications
 Source0:	http://www.algonet.se/~skeleton/linuxcmd/%{name}-%{version}.tar.gz
 URL:		http://www.algonet.se/~skeleton/linuxcmd/
-BuildRequires:	gtk+-devel
-BuildRequires:	glib-devel
+BuildRequires:	gtk+-devel >= 1.2.5
+BuildRequires:	glib-devel >= 1.2.10
 BuildRoot:      %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
