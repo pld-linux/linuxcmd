@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Linux Commander
+Name[pl]=Linux Commander
+Exec=linuxcmd
+#Icon=linuxcmd.png
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Application;Utility;
+
