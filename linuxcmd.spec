@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://www.algonet.se/~skeleton/linuxcmd/%{name}-%{version}.tar.gz
+Source1:	%{name}.desktop
 URL:		http://www.algonet.se/~skeleton/linuxcmd/
 BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	glib-devel >= 1.2.10
@@ -28,9 +29,10 @@ pod Linuksem.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT/%{_applnkdir}/Utilities/
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
+install %{SOURCE1} $RPM_BUILD_ROOT/%{_applnkdir}/Utilities/
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -39,3 +41,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README
 %attr(755,root,root) %{_bindir}/*
+%{_applnkdir}/Utilities/%{name}.desktop
