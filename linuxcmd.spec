@@ -1,5 +1,5 @@
-Summary:	linuxcmd - clone of Total Commander for Linux
-Summary(pl):	linuxcmd - klon Total Commandera dla Linuksa
+Summary:	Clone of Total Commander for Linux
+Summary(pl):	Klon Total Commandera dla Linuksa
 Name:		linuxcmd
 Version:	0.5.2
 Release:	1
