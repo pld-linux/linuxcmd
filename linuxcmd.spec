@@ -9,8 +9,8 @@ Source0:	http://www.algonet.se/~skeleton/linuxcmd/%{name}-%{version}.tar.gz
 # Source0-md5:	f5ece078248e6f6898b2456f218fb5f4
 Source1:	%{name}.desktop
 URL:		http://www.algonet.se/~skeleton/linuxcmd/
-BuildRequires:	gtk+-devel >= 1.2.5
 BuildRequires:	glib-devel >= 1.2.10
+BuildRequires:	gtk+-devel >= 1.2.5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
