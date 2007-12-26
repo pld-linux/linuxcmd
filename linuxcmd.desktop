@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Linux Commander
 Name[pl]=Linux Commander
 Exec=linuxcmd
-#Icon=linuxcmd.png
+#Icon=linuxcmd
 Terminal=false
 MultipleArgs=false
 Type=Application
